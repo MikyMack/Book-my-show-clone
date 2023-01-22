@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(50, 50, 64);
+    height: 80px;
+    flex-direction: row;
+}
+.fnav .left{
+    display: flex;
+}
+.left img{
+    width: 180px;
+    height: 25px;
+    margin-top: 25px;
+    object-fit: cover;    
+}
+.left input{
+    margin-left: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: medium;
+    padding-left: 20px;
+}
+
+
+.fnav .right{
+    display: flex;
+}
+.right p{
+    margin-inline: 22px;
+    color: white;
+    margin-top: 30px;
+}
+.right button{
+    margin-inline: 22px;
+    height: 30px;
+    margin-top: 25px;
+    width: 70px;
+    background-color: rgba(240, 20, 90, 0.759);
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px;
+}
+.right i{
+    margin-top: 25px;
+    color: rgb(190, 184, 184);
+    cursor: pointer;
+}
+.sec-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(47, 40, 71);
+    height: 40px;
+  padding-left: 200px;
+
+}
+.s-left{
+    margin-left: -100px;
+}
+.s-left p{
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: small;
+    cursor: pointer;
+    color: antiquewhite;
+    
+}
+.s-right{
+    margin-right: 100px;
+}
+.s-right p{
+    display: grid;
+    grid-template-columns: 20px 40px;
+    row-gap: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: small;
+    cursor: pointer;
+    color: antiquewhite;
+    flex-direction: row;
+
+}
+.main img{
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1450px;
+    height: 300px;
+    border-radius: 3px;
+   
+}
+.container h2{
+    margin-left: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.container .card {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  
+}
+.card .first{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+  .pathaan h2{
+     margin-left: 99px;
+     font-weight: 200px;
+     margin-top: 10px;
+     
+    }
+    .pathaan p{
+        margin-left: 98px;
+    }
+.card .second{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nanpakal h2{
+    margin-left: 1px;
+    width: 200px;
+    font-weight: 200px;
+    margin-top: 10px;
+}
+.card .third{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.malikappuram h2{
+    margin-left: 1px;
+    width: 200px;
+    font-weight: 200px;
+    margin-top: 10px;
+}
+.card .fourth{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ayisha h2{
+    margin-left: 1px;
+    width: 200px;
+    font-weight: 200px;
+    margin-top: 10px;
+}
+.card .fifth{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.poovan h2{
+    margin-left: 1px;
+    width: 200px;
+    font-weight: 200px;
+    margin-top: 10px;
+}
+.banner{
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.container-sec h2{
+   
+        margin-left: 70px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        
+    }
+    .card-sec .fi{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    .card-sec .se{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 60px;
+        cursor: pointer;
+    }
+.card-sec .th{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.card-sec .fo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.card-sec .fit{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.premire{
+    height: 700px;
+    background-color: rgb(40, 40, 57);
+    margin-bottom: 60px;
+}
+.premire h2{
+    margin-left: 105px;
+    margin-top: 30px;
+    color: rgb(208, 201, 201);
+    padding-top: 30px;
+   
+}
+.premire p{
+    color: rgb(202, 199, 195);
+    margin-left: 104px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.card-thi{
+    display: flex;
+    justify-content: space-between;
+}
+.card-thi .one{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.black h2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    font-weight: 200px;
+    margin-top: 0;
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+.card-thi .two{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.maverik h2{
+    width: 100px;
+    font-weight: 200px;
+    margin-top: 0;
+    margin-bottom: 9px;
+    cursor: pointer;
+    margin-left: 0;
+
+}
+.maverik p{
+    margin-left: 0;
+}
+.card-thi .three{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.confess h2{
+    width: 100px;
+    font-weight: 200px;
+    margin-top: 0;
+    margin-bottom: 9px;
+    cursor: pointer;
+    margin-left: 0;
+}
+.confess p{
+    margin-left: 0;
+}
+.card-thi .four{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.everything h2{
+    width: 209px;
+    font-weight: 200px;
+    margin-top: 0;
+    margin-bottom: 9px;
+    cursor: pointer;
+    margin-left: 0;
+}
+.everything p{
+    margin-left: 0;
+}
+.card-thi .five{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.gunpowder h2{
+    width: 209px;
+    font-weight: 200px;
+    margin-top: 0;
+    margin-bottom: 9px;
+    cursor: pointer;
+    margin-left: 0;
+}
+.gunpowder p{
+    margin-left: 0;
+}
+.footer{
+    height: 450px;
+    background-color: rgb(246, 244, 243);
+}
+.footer .logo{
+    width: 200PX;
+    margin-left: 625px;
+    
+}
+.footer .icon{
+    display: flex;
+    margin-left: 655px;
+}
+.icon  .A{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icon .B{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icon .C{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icon .D{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.footer .contact{
+    height: 100px;
+    width: 1470px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 150px;
+}
+.footer .row{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 00px;
+    align-items: center;
+    margin-top: 30px;
+}
+.footer .col a{
+    color: black;
+}
